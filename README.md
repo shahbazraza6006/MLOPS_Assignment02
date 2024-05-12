@@ -1,4 +1,5 @@
 # MLOPS_Assignment02
+
 # Data Preprocessing Workflow
 
 This repository contains a Python script and an Apache Airflow DAG for automating the extraction and preprocessing of data from the BBC News website. Below is an overview of the workflow and the challenges encountered during implementation.
@@ -33,4 +34,7 @@ To run the data preprocessing workflow, follow these steps:
 
 Despite encountering challenges during Apache Airflow installation, the implementation successfully automates the extraction and preprocessing of data from the BBC News website. The integration of DVC ensures version control and reproducibility of the data workflow.
 
+![Apache Airflow](apache.png)
+
 ---
+*Note: Ensure proper environment setup and permissions before running the provided scripts and DAG.*
