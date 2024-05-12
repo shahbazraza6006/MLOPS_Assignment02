@@ -34,4 +34,3 @@ To run the data preprocessing workflow, follow these steps:
 Despite encountering challenges during Apache Airflow installation, the implementation successfully automates the extraction and preprocessing of data from the BBC News website. The integration of DVC ensures version control and reproducibility of the data workflow.
 
 ---
-*Note: Ensure proper environment setup and permissions before running the provided scripts and DAG.*
