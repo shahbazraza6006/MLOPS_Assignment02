@@ -1,0 +1,4 @@
+[core]
+    remote = assignment2
+['remote "assignment2"']
+    url = gdrive://1ul-kCRDbTVLzK9lb-G_fdsYksw9CekDU

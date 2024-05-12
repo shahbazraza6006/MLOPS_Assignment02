@@ -31,7 +31,8 @@ def fetch_and_preprocess_data():
         writer.writerow(["Headline", "Description"])
         for headline, description in preprocessed_data:
             writer.writerow([headline, description])
-
+    os.system("dvc init -f")
+    os.system("dvc remote add -d assignment2 gdrive://1ul-kCRDbTVLzK9lb-G_fdsYksw9CekDU")
     os.system("dvc add {}".format(csv_file))
     os.system("dvc push")
 
